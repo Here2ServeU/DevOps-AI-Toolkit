@@ -74,28 +74,28 @@ This GitHub repository is designed to help Cloud Engineers, DevOps practitioners
 ![Incident Response](assets/prompt-13.png)
 
 14. Nginx 502 error runbook: triage, root causes, rollback, Slack escalation.
-[Incident Response](assets/prompt-14.png)
+![Incident Response](assets/prompt-14.png)
 
 15. Blameless postmortem draft: Envoy config error, 3-hour API outage.
-[Incident Response](assets/prompt-15.png)
+![Incident Response](assets/prompt-15.png)
 
 
 ### Cloud Costs
 16. AWS bill breakdown: EC2 + RDS spend, staging idle, tag enforcement.
-[Cloud Costs](assets/prompt-16.png)
+![Cloud Costs](assets/prompt-16.png)
 
 17. GCP scheduler: Shut down non-prod clusters 6PM–8AM. Terraform compatible.
-[Cloud Costs](assets/prompt-17.png)
+![Cloud Costs](assets/prompt-17.png)
 
 18. IAM tagging policy: prevent untagged infra, alert if budget breach.
-[Cloud Costs](assets/prompt-18.png)
+![Cloud Costs](assets/prompt-18.png)
 
 ### Security Sanitization
 19. Sanitize logs before sharing with AI: redact secrets, internal IPs.
-[Security Sanitization](assets/prompt-19.png)
+![Security Sanitization](assets/prompt-19.png)
 
 20. Create synthetic OAuth error logs for AI troubleshooting w/o exposing data.
-[Security Sanitization](assets/prompt-20.png)
+![Security Sanitization](assets/prompt-20.png)
 
 ---
 
