@@ -1,7 +1,7 @@
 # DevOps-AI-Toolkit
 
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/DevOps-AI-Toolkit?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/DevOps-AI-Toolkit?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/Here2ServeU/DevOps-AI-Toolkit?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/Here2ServeU/DevOps-AI-Toolkit?style=social)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/Here2ServeU/DevOps-AI-Toolkit)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
