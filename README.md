@@ -28,37 +28,37 @@ This GitHub repository is designed to help Cloud Engineers, DevOps practitioners
 
 ## Prompt Catalog
 
-### [ci_cd_troubleshooting.md]
+### [ci_cd_troubleshooting]
 1. Analyze this GitHub Actions failure. Logs: [Insert]. Stack: Node.js + Yarn. Recent change: `.nvmrc` added.
 2. Jenkins job fails during `mvn package`. Console output: [Insert]. OS: Ubuntu.
 3. GitLab CI error post Docker base image update. YAML + logs attached.
 
-### [infra_as_code.md]
+### [infra_as_code]
 4. Generate Terraform: VPC, EKS cluster, RDS, IAM roles, tagging.
 5. Pulumi (TypeScript): AKS, PostgreSQL, Private DNS zone. Modular output.
 6. CloudFormation for ECS, ALB, Auto-scaling, and CloudWatch logging.
 
-### [scripting_automation.md]
+### [scripting_automation]
 7. Bash: Backup MySQL, compress, S3 upload, delete old, log errors.
 8. PowerShell: Restart IIS, fetch event logs, alert via Teams webhook.
 9. Python: Find unused EBS volumes, tag for review, export to CSV.
 
-### [observability_alerting.md]
+### [observability_alerting]
 10. Refactor Prometheus rules: reduce noise, add labels, cover Redis spikes.
 11. Optimize Datadog monitors: group by env, add remediation tips.
 12. Alerting strategy via SLOs: latency, error rate, saturation. Tools: Grafana + Alertmanager.
 
-### [incident_response.md]
+### [incident_response]
 13. Chaos experiment for Redis latency in GKE. Include rollback/blast radius.
 14. Nginx 502 error runbook: triage, root causes, rollback, Slack escalation.
 15. Blameless postmortem draft: Envoy config error, 3-hour API outage.
 
-### [cloud_costs.md]
+### [cloud_costs]
 16. AWS bill breakdown: EC2 + RDS spend, staging idle, tag enforcement.
 17. GCP scheduler: Shut down non-prod clusters 6PM–8AM. Terraform compatible.
 18. IAM tagging policy: prevent untagged infra, alert if budget breach.
 
-### [security_sanitization.md]
+### [security_sanitization]
 19. Sanitize logs before sharing with AI: redact secrets, internal IPs.
 20. Create synthetic OAuth error logs for AI troubleshooting w/o exposing data.
 
