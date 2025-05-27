@@ -1,5 +1,10 @@
 # DevOps-AI-Toolkit
 
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/DevOps-AI-Toolkit?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/DevOps-AI-Toolkit?style=social)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Here2ServeU/DevOps-AI-Toolkit)
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 **Supercharge your DevOps, Cloud, and SRE workflows with AI-powered prompts, scripts, and automation.**
 
 ---
@@ -10,34 +15,6 @@ This GitHub repository is designed to help Cloud Engineers, DevOps practitioners
 ---
 
 ## Repository Structure
-```
-DevOps-AI-Toolkit/
-│
-├── prompts/
-│   ├── ci_cd_troubleshooting.md
-│   ├── infra_as_code.md
-│   ├── scripting_automation.md
-│   ├── observability_alerting.md
-│   ├── incident_response.md
-│   ├── cloud_costs.md
-│   └── security_sanitization.md
-│
-├── scripts/
-│   ├── backup_mysql_to_s3.sh
-│   ├── detect_unused_ebs.py
-│   ├── restart_iis_monitor.ps1
-│
-├── examples/
-│   ├── blameless_postmortem_example.md
-│   ├── runbook_template.md
-│   └── chaos_experiment_example.md
-│
-├── assets/
-│   └── images, diagrams, etc.
-│
-└── README.md
-```
-
 ---
 
 ## Features
@@ -46,6 +23,44 @@ DevOps-AI-Toolkit/
 - Best practices for using AI securely (e.g. sanitizing logs)
 - Examples: incident reports, runbooks, postmortems
 - Easy to copy-paste and adapt to your stack
+
+---
+
+## Prompt Catalog
+
+### [ci_cd_troubleshooting.md]
+1. Analyze this GitHub Actions failure. Logs: [Insert]. Stack: Node.js + Yarn. Recent change: `.nvmrc` added.
+2. Jenkins job fails during `mvn package`. Console output: [Insert]. OS: Ubuntu.
+3. GitLab CI error post Docker base image update. YAML + logs attached.
+
+### [infra_as_code.md]
+4. Generate Terraform: VPC, EKS cluster, RDS, IAM roles, tagging.
+5. Pulumi (TypeScript): AKS, PostgreSQL, Private DNS zone. Modular output.
+6. CloudFormation for ECS, ALB, Auto-scaling, and CloudWatch logging.
+
+### [scripting_automation.md]
+7. Bash: Backup MySQL, compress, S3 upload, delete old, log errors.
+8. PowerShell: Restart IIS, fetch event logs, alert via Teams webhook.
+9. Python: Find unused EBS volumes, tag for review, export to CSV.
+
+### [observability_alerting.md]
+10. Refactor Prometheus rules: reduce noise, add labels, cover Redis spikes.
+11. Optimize Datadog monitors: group by env, add remediation tips.
+12. Alerting strategy via SLOs: latency, error rate, saturation. Tools: Grafana + Alertmanager.
+
+### [incident_response.md]
+13. Chaos experiment for Redis latency in GKE. Include rollback/blast radius.
+14. Nginx 502 error runbook: triage, root causes, rollback, Slack escalation.
+15. Blameless postmortem draft: Envoy config error, 3-hour API outage.
+
+### [cloud_costs.md]
+16. AWS bill breakdown: EC2 + RDS spend, staging idle, tag enforcement.
+17. GCP scheduler: Shut down non-prod clusters 6PM–8AM. Terraform compatible.
+18. IAM tagging policy: prevent untagged infra, alert if budget breach.
+
+### [security_sanitization.md]
+19. Sanitize logs before sharing with AI: redact secrets, internal IPs.
+20. Create synthetic OAuth error logs for AI troubleshooting w/o exposing data.
 
 ---
 
